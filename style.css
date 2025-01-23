@@ -30,10 +30,8 @@ h1 {
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
-    font-style: normal;  
+    font-style: normal; }  
 }
-
-   }
 
 .sub-title1 {
     color: lightgrey;
@@ -63,7 +61,7 @@ h2 {
     text-align: left;
    }
    
-em {
+span {
        color: rgb(99, 176, 99);
        text-decoration: none;
    }
@@ -114,14 +112,14 @@ input {
     color: rgb(99, 176, 99);
 }
 footer {
-    width: 75%;
-    margin: 0 auto;
+    margin: 10px;
     background-color: lightgrey;
-    padding: 
+    font-size: 12px;
 }
 .footer-items {
     text-align: center;
     margin: 5%;
+
 }
 .footer1 {
     margin-bottom: 3%;
@@ -138,6 +136,9 @@ footer {
     height: 40px;
     background-color: rgb(132, 132, 132);
     border: 7px solid white;
+    margin-left: 20px;
+    margin-right: 20px;
+    ;
     
 }
 .lista-navigate {
@@ -148,5 +149,11 @@ footer {
 }
 .footer-about {
     display: flex;
+    margin-right: 20px;
     
+}
+.fotostream {
+    display: flex;
+    flex-direction:row;
+
 }
