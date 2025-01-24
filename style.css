@@ -129,13 +129,10 @@ input {
     
 }
 
-.cuadrado {
-    width: 40px;
-    height: 40px;
-    background-color: rgb(132, 132, 132);
-    border: 7px solid white;
-    margin: 20px;
-    flex-wrap: wrap;
+.square {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
     
 }
 .lista-navigate {
@@ -156,11 +153,22 @@ input {
 .flex-justify-between {
     display: flex;
     flex-direction:row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-around;
 
-
 }
+
 .flex-wrap-fotostream {
 flex-wrap: wrap;
+
+}
+
+.w-40 {
+    width: 40%;
+}
+.w-30 {
+    width: 30%;
+}
+.copyright {
+    padding: 5%;
 }
