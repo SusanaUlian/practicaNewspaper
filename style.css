@@ -76,16 +76,15 @@ p {
     flex-direction: row;
   } 
 
-.categories {
+.categories,
+.post {
     font-size: 12px;
     list-style-type: none;
     text-align: left;
     margin-left: 0%;
     padding-left: 0%;
 }
-li {
-    margin: 5px;
-}
+
 .tags {
     font-size: 10px;
     background-color: lightgrey;
@@ -94,12 +93,7 @@ li {
     height: 20px;
     margin: 2%;
 }
-.post {
-    list-style-type: none;
-    font-size: 13px;
-    margin: 0% ;
-    padding-left: 0%;
-}
+
 .col-2 {
     margin-right: 15%;
     margin-top: 27px;
@@ -108,9 +102,7 @@ input {
     background-color: rgb(223, 222, 222);
     border-color: rgb(223, 222, 222);
 }
-.ref {
-    color: rgb(99, 176, 99);
-}
+
 .container {
     margin: 10px;
     background-color: lightgrey;
@@ -125,16 +117,9 @@ input {
     flex-direction: row;
     justify-content:center;
     letter-spacing: 20px;
-    font-size: 20px;
-    
+    font-size: 20px;    
 }
 
-.square {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-    
-}
 .lista-navigate {
     list-style-type: none;
     padding-left: 0%;
@@ -142,6 +127,7 @@ flex-wrap: wrap;
     margin: 0% 10%;
     justify-content: end;
 }
+
 .container-flex-about {
     display: flex;
     margin: 3% 5%;
@@ -160,6 +146,9 @@ flex-wrap: wrap;
 
 .flex-wrap-fotostream {
 flex-wrap: wrap;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
 
 }
 
@@ -171,4 +160,23 @@ flex-wrap: wrap;
 }
 .copyright {
     padding: 5%;
+}
+.cuadrado {
+    width: 40px;
+    height: 40px;
+    background-color: grey;
+    margin: 5%;
+    border: 7px white solid;
+
+}
+
+
+@media (max-width: 700px) {
+    footer {
+        flex-direction: column;
+    }
+    .w-30,
+    .w-40 {
+        width: 100%;
+    }
 }
